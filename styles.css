@@ -1,0 +1,41 @@
+body {
+    background-color: aquamarine;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+canvas {
+    border: 1px solid black;
+    display: block;
+    margin: auto;
+    background-color: #f5f5f5;
+}
+
+.controls {
+    margin: 10px;
+}
+
+button,
+select {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#traversalPath {
+    font-size: 18px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#cycleDetection {
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+}
+
+button {
+    border-radius: 10px 10px;
+    background-color: rgb(144, 205, 205);
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Graph Visualizer</title>
+</head>
+<body>
+    <h2>Graph Visualizer</h2>
+    <canvas id="graphCanvas"></canvas>
+    <div class="controls">
+        <select id="traversalType">
+            <option value="dfs">Depth-First Search (DFS)</option>
+            <option value="bfs">Breadth-First Search (BFS)</option>
+            <option value="cycleDetection">Detect Cycle</option>
+        </select>
+        <button onclick="startTraversal()">Start Traversal</button>
+        <button onclick="clearGraph()">Clear Graph</button>
+    </div>
+    <p id="traversalPath">Traversal Path: </p>
+    <p id="cycleDetection"></p>
+    <script src="script.js"></script>
+</body>
+</html>
